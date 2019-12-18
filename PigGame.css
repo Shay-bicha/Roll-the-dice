@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2018/05/Gradient-Roundup-Illustrator-02.jpg);
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+#coverGame{
+    height: 75vh;
+    width: 70%;
+    background-color: crimson;
+    position: relative;
+    /* left: 17%; */
+    display: flex;
+    align-items: center;
+    margin:5% auto;
+}
+
+#DivimageDice{
+    position: absolute;
+    top: 32%;
+    left: 42%;
+    height: 25vh;
+    width: 25vh;
+    border-color:1px solid black; 
+    z-index: 3;
+}
+#diceimage{
+    height : 20vh;
+     width : 20vh;
+     border-color:1px solid black;
+}
+#NewGame{
+    position: absolute;
+    top: 10px;
+    height: 5vh;
+    width: 19vh;
+    left: 44%;
+    top: 7%;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+#iconNewGame{
+    color: red;
+    font-size: 15px;
+    
+}
+#RollDice{
+    position: absolute;
+    bottom: 30%;
+    left: 44%;
+    z-index: 3;
+    height: 5vh;
+    width: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+#iconRollDice{
+    color: red;
+    font-size: 15px;
+}
+#Hold{
+    position: absolute;
+    bottom: 20%;
+    left: 46%;
+    z-index: 3;
+    height: 5vh;
+    width: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+#iconHold{
+    color: red;
+    font-size: 15px;
+}
+.partGame{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    /* border:1px solid black; */
+}
+
+#asidLeft{
+    background-color: rgb(247, 245, 247);
+    position: relative;
+}
+#redPointPlayer1{
+    position: absolute;
+    background-color: red;
+    height: 1.5vh;
+    width: 1.5vh;
+    border-radius: 50%;
+    right: 33%;
+    top: 24%;
+    display: inline;
+}
+#player1Name{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    color: rgb(139, 138, 139);
+}
+#asidLeft p{
+    position: absolute;
+    top: 32%;
+    left: 45%;
+    font-size: 55px;
+    color: rgb(209, 173, 175);
+}
+#currentLeft{
+    height: 13vh;
+    width: 18vh;
+    background-color: rgb(255, 51, 63);
+    position: absolute;
+    bottom: 19%;
+    left: 36%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#RefflesNowPlayer1{
+    font-size: 30px;
+    color: white;
+}
+#asidRight{
+    background-color: rgb(255 , 255 , 255);
+}
+#redPointPlayer2{
+    position: absolute;
+    background-color: red;
+    height: 1.5vh;
+    width: 1.5vh;
+    border-radius: 50%;
+    right: 33%;
+    top: 24%;
+    display: none;
+}
+#player2Name{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    color: rgb(210, 209, 210);
+}
+#asidRight p{
+    position: absolute;
+    top: 32%;
+    left: 45%;
+    font-size: 55px;
+    color: rgb(209, 173, 175);
+}
+#currentRight{
+    height: 13vh;
+    width: 18vh;
+    background-color: rgb(255, 51, 63);
+    position: absolute;
+    bottom: 19%;
+    left: 36%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#RefflesNowPlayer2{
+    font-size: 30px;
+    color: white;
+}
+@media screen and (max-width:1218px) {
+    #redPointPlayer2{
+        
+    }
+    /* #NewGame , #RollDice ,  #Hold{
+        font-size: 50%; 
+    }
+    #player1Name , #player2Name{
+        font-size: 34px;
+        
+    }
+    #globalScorePlayer1 , #globalScorePlayer2{
+        font-size: 50px;
+    }
+    #currentPlayer1 , #currentPlayer2{
+        font-size: 30px; 
+    } 
+    #RefflesNowPlayer1 , #RefflesNowPlayer2{
+        font-size: 35px;
+    } */
+    
+   
+  }
